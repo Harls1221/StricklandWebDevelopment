@@ -11,7 +11,8 @@ body, html {
   flex-direction: row-reverse;
   justify-content: center;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
+  height: auto;
   color: #241B3C;
   margin-top: 50px;
   font-family: 'Playfair Display', serif;
@@ -23,7 +24,7 @@ body, html {
 .about_p{
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 35%;
   height: auto;
 }
 
@@ -158,10 +159,10 @@ color: #665385;
     font-size: 20px;
   }
   .navbar{
-    flex-direction: column;
+    justify-content: center;
   }
   .navbar li{
-    font-size: 28px;
+    font-size: 18px;
     padding: 5px;
     
 
@@ -175,8 +176,13 @@ color: #665385;
     font-size: 1em;
     text-align: center;
   }
-  .about img{
-    width: 75%;
+  .about .me{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .contact{
     margin: 0 auto;
   }
 }
